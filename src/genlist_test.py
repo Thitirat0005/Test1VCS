@@ -7,5 +7,6 @@ sys.path.append(cwd)
 #print(sys.path)
 
 #Test the module: generate_list
-from generate_list import printIT
-printIT()
+for i in range(100):
+    from generate_list import printIT
+    printIT()
